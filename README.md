@@ -22,7 +22,6 @@ npm install
 ls _install
 ```
 
-
 This project merely demonstrates using `esy` to perform the simplest possible
 "native build/compile". Native compilation "installs" a subset of artifacts
 into a final destination, and this project demonstrates doing that.
