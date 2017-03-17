@@ -1,0 +1,4 @@
+_build
+_install
+node_modules
+.DS_Store

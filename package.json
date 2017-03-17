@@ -1,0 +1,20 @@
+{
+  "name": "esy-npm-project-example",
+  "version": "1.0.0",
+  "description": "Simple example of using esy on pure npm cli.",
+
+  "scripts": {
+
+    "install": "esybuild",
+
+    "test": "./_install/bin/example"
+  },
+
+  "esy": {
+    "build": ["make install DESTINATION=$cur__bin"]
+  },
+
+  "dependencies": {
+    "esy": "https://github.com/reasonml/esy.git#beta-v-bleeding"
+  }
+}
